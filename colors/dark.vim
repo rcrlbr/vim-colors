@@ -409,6 +409,16 @@ call <sid>hi('goFunctionCall', s:cdYellow, {}, 'none', {})
 call <sid>hi('goMethodCall', s:cdYellow, {}, 'none', {})
 call <sid>hi('goSingleDecl', s:cdLightBlue, {}, 'none', {})
 
+" Gcode:
+call <sid>hi('gcodeCommand', s:cdBlue, {}, 'bold', {})
+call <sid>hi('gcodeFunction', s:cdLightBlue, {}, 'bold', {})
+call <sid>hi('gcodeAxis', s:cdFront, {}, 'bold', {})
+call <sid>hi('gcodeIter', s:cdPink, {}, 'bold', {})
+call <sid>hi('gcodeStatus', s:cdYellowOrange, {}, 'bold', {})
+call <sid>hi('gcodeVariable', s:cdYellow, {}, 'bold', {})
+call <sid>hi('gcodeOperator', s:cdBlue, {}, 'none', {})
+call <sid>hi('gcodeRotationParam', s:cdPink, {}, 'none', {})
+
 " Python:
 call <sid>hi('pythonStatement', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
